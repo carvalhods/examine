@@ -8,7 +8,7 @@ distribution = Distributie
 processor = Processor
 pci-devices = PCI-apparaten
 usb-devices = USB-apparaten
-not-provided = Niet verstrekt
+not-provided = Geen info
 wip = Werk in uitvoering
 error-occurred = Er is een fout opgetreden
 error-occurred-with-msg = Er is een fout opgetreden: {$error}
@@ -18,10 +18,10 @@ support = Ondersteuning
 repository = Repository
 
 # Distribution Page
-pretty-name = Mooie naam
+pretty-name = Lange naam
 name = Naam
 id = ID
-id-like = ID als
+id-like = ID-achtig
 version = Versie
 version-id = Versie-ID
 version-codename = Versiecodenaam
@@ -38,10 +38,10 @@ doc-url = URL voor documentatie
 support-url = Ondersteunings-URL
 bug-report-url = URL voor bugrapportage
 privacy-policy-url = URL privacybeleid
-support-end = Ondersteuning stopt
+support-end = Support End
 variant = Variant
 variant-id = Variant-ID
 default-hostname = Standaard Hostnaam
 arch = Architectuur
-portable-prefixes = Portable Voorvoegsels
+portable-prefixes = Portable Prefixes
 
