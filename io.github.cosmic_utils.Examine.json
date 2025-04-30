@@ -79,6 +79,7 @@
         },
         {
             "name": "usbutils",
+            "buildsystem": "meson",
             "config-opts": [
                 "--datadir=/app/share/hwdata",
                 "--sbindir=/app/bin"
@@ -100,8 +101,7 @@
             "name": "examine",
             "buildsystem": "simple",
             "build-commands": [
-                "just vendor",
-                "just build-vendored",
+                "just build-release",
                 "just flatpak"
             ],
             "sources": [
