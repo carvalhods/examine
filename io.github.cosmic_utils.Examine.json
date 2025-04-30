@@ -98,6 +98,31 @@
             ]
         },
         {
+            "name": "pop-icon-theme",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/pop-os/icon-theme/archive/refs/tags/v3.5.1.tar.gz",
+                    "sha256": "92e73f252e5e9c8a1124623a7d421410ef43c798a4a992955e6eb4f666f5c8a0"
+                }
+            ]
+        },
+        {
+            "name": "cosmic-icons",
+            "buildsystem": "simple",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/pop-os/cosmic-icons.git",
+                    "commit": "0b2aed444daa52c65effbb8e71a8a19b0f2e4cb9"
+                }
+            ],
+            "build-commands": [
+                "just prefix=/app install"
+            ]
+        },
+        {
             "name": "examine",
             "buildsystem": "simple",
             "build-commands": [
